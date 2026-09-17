@@ -8,7 +8,7 @@ export default defineConfig([
   globalIgnores(['dist']),
   js.configs.recommended,
   tseslint.configs.recommended,
-    {
+  {
     languageOptions: {
       globals: globals.node,
     },
