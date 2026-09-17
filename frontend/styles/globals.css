@@ -8,6 +8,7 @@
   --color-primary-hover: #4338ca;
   --color-primary-light: #eef2ff;
   --color-danger: #dc2626;
+  --color-danger-light: #fef2f2;
   --color-success: #16a34a;
   --radius: 8px;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -83,4 +84,24 @@ button {
 
 .button-secondary:hover:not(:disabled) {
   background-color: var(--color-bg);
+}
+
+.page-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  .page-title {
+    font-size: 1.875rem;
+  }
 }

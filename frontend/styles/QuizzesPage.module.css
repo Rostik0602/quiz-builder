@@ -1,0 +1,35 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.state {
+  padding: 40px 16px;
+  text-align: center;
+  color: var(--color-text-muted);
+  background-color: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius);
+}
+
+.state a {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.error {
+  color: var(--color-danger);
+  border-color: var(--color-danger);
+}
+
+@media (min-width: 640px) {
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

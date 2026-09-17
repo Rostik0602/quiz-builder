@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 100%;
+  padding: 16px;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: var(--color-primary);
+}
+
+.link {
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  overflow-wrap: break-word;
+}
+
+.count {
+  margin-top: 4px;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.deleteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  color: var(--color-text-muted);
+  background: none;
+  border: none;
+  border-radius: var(--radius);
+  transition:
+    color 0.2s,
+    background-color 0.2s;
+}
+
+.deleteButton:hover {
+  color: var(--color-danger);
+  background-color: var(--color-danger-light);
+}
