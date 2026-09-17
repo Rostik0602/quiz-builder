@@ -10,6 +10,7 @@
   --color-danger: #dc2626;
   --color-danger-light: #fef2f2;
   --color-success: #16a34a;
+  --color-success-light: #f0fdf4;
   --radius: 8px;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }

@@ -1,0 +1,24 @@
+.back {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.meta {
+  margin-top: 4px;
+  color: var(--color-text-muted);
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
