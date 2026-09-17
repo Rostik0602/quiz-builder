@@ -47,9 +47,6 @@ export default function QuizzesPage({ initialQuizzes, error }: QuizzesPageProps)
 
       <div className="page-header">
         <h1 className="page-title">Quizzes</h1>
-        <Link href="/create" className="button button-primary">
-          Create quiz
-        </Link>
       </div>
 
       {error && <p className={`${styles.state} ${styles.error}`}>{error}</p>}
